@@ -1,0 +1,40 @@
+names:
+- Alejandro Balde
+- Aurelien Tchouameni
+- Bellingham
+- Carlo Anjelotte
+- Casado
+- Cubarsi
+- Eduardo Camavinga
+- Federico Valverde
+- Ferland Mendy
+- Flick
+- Gavi
+- Inigo Martinez
+- Kounde
+- Lamine Yamal
+- Lewandowski
+- Lucas Vazquez
+- Mbappe
+- Pedri
+- Raphinha
+- Refree
+- Rodrygo
+- Rudiger
+- Szczesny
+- Thibaut Courtois
+- Vinicius Junior
+- arajo
+- ball
+- ceballos
+- conde
+nc: 29
+roboflow:
+  license: CC BY 4.0
+  project: label2-v4zbj
+  url: https://universe.roboflow.com/salah-naimat/label2-v4zbj/dataset/1
+  version: 1
+  workspace: salah-naimat
+test: ../test/images
+train: ../train/images
+val: ../valid/images

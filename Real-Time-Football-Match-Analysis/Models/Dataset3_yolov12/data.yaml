@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 29
+names: ['Alejandro Balde', 'Arda Guller', 'Asencio', 'Aurelien Tchouameni', 'Bellingham', 'Carllo Anjelotti', 'Ceballos', 'Cubarsi', 'De Yung', 'Eric Garacia', 'Federico Valverde', 'Ferran Torres', 'Flick', 'Fran Garacia', 'Gavi', 'Gerard', 'Inigo Martinez', 'Lamine Yamal', 'Lewandowski', 'Lucas Vazquez', 'Mbappe', 'Olmo', 'Pedri', 'Raphinha', 'Refree', 'Szczesny', 'Thibaut Courtois', 'Vinicius Junior', 'ball']
+
+roboflow:
+  workspace: salah-naimat
+  project: label3-day
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/salah-naimat/label3-day/dataset/1
