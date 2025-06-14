@@ -1,0 +1,20 @@
+# Number of classes
+nc: 2
+
+# Class names (order matters: index 0 = ball, index 1 = person)
+names:
+  - ball
+  - person
+
+# Dataset paths (relative or absolute)
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+# Optional Roboflow metadata (ignored by YOLO but fine to keep)
+roboflow:
+  license: CC BY 4.0
+  project: football-players-detection-3zvbc
+  url: https://universe.roboflow.com/roboflow-jvuqo/football-players-detection-3zvbc/dataset/1
+  version: 1
+  workspace: roboflow-jvuqo
